@@ -1,0 +1,20 @@
+{
+  "name": "BrokenApp",
+  "title": "BrokenApp",
+  "summary": "FakeApp",
+  "dxapi": "1.0.0",
+  "version": "0.0.1",
+  "inputSpec": [],
+  "outputSpec": [],
+  "runSpec": {
+    "interpreter": "python2.7",
+    "file": "noop.py",
+    "systemRequirements": {
+      "*": {
+        "instanceType": "mem1_ssd1_x2"
+      }
+    },
+    "distribution": "Ubuntu",
+    "release": "12.04"
+  }
+}
